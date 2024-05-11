@@ -1,0 +1,77 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good afternoon", "Good evening"],
+        "responses": ["Hi there! How can I assist you today?", "Hello! How can I help you?", "Hey! What can I do for you?"],
+        "context_set": ""
+      },
+      {
+        "tag": "symptom_inquiry",
+        "patterns": ["I'm not feeling well", "I have some symptoms", "What should I do if I feel sick?", "I think I might be sick"],
+        "responses": ["I'm here to help you assess your symptoms. Let me guide you to the Symptom Checker section where you can input your symptoms for further assistance."],
+        "context_set": "symptom_checker"
+      },
+      {
+        "tag": "fitness_recommendations",
+        "patterns": ["I want to exercise", "Can you recommend some workouts?", "How can I stay fit?", "I need help with my fitness routine"],
+        "responses": ["Staying active is important for your health! Let me guide you to the Fitness Recommendations section where you can discover personalized exercise routines to support your fitness goals."],
+        "context_set": "fitness_recommendations"
+      },
+      {
+        "tag": "stress_support",
+        "patterns": ["I'm feeling stressed", "How can I relax?", "What should I do if I'm anxious?", "Dealing with anxiety"],
+        "responses": ["It's important to prioritize your mental well-being. Let me guide you to the Stress Support Section where you can find resources and techniques to help you manage stress and promote relaxation."],
+        "context_set": "stress_support"
+      },
+      {
+        "tag": "menu_options",
+        "patterns": ["What can you do?", "What are your capabilities?", "Show me the options", "How can you help me?"],
+        "responses": ["I can assist you with a variety of tasks, including providing information, answering questions, and guiding you through the app's features. Feel free to explore and let me know how I can assist you further."],
+        "context_set": ""
+      },
+      {
+        "tag": "feature_request",
+        "patterns": ["I wish this app could do X", "It would be great if I could X", "Can you add X feature?", "More features please"],
+        "responses": ["Thank you for your suggestion! I'll pass it along to our development team for consideration."],
+        "context_set": ""
+      },
+      {
+        "tag": "bug_report",
+        "patterns": ["I found a bug", "There's a problem with the app", "I encountered an issue", "The app isn't working properly"],
+        "responses": ["Thank you for letting us know! Please provide details about the issue, and we'll work on fixing it as soon as possible."],
+        "context_set": ""
+      },
+      {
+        "tag": "app_tour",
+        "patterns": ["Can you show me around the app?", "How does the app work?", "Give me a tour of the app", "What can I do in this app?"],
+        "responses": ["Sure! Our app has several sections, including Symptom Checker, First Aid Recommendations, and Stress Support. Each section provides different features to help you with your health and wellness goals."],
+        "context_set": ""
+      },
+      {
+        "tag": "app_feedback",
+        "patterns": ["I have some feedback about the app", "Can I provide feedback?", "I want to share my thoughts about the app"],
+        "responses": ["We value your feedback! Please feel free to share your thoughts, and we'll use them to improve our services."],
+        "context_set": ""
+      },
+      {
+        "tag": "user_engagement",
+        "patterns": ["How can I make the most out of this app?", "What are some tips for using this app effectively?", "I want to get the best results from this app"],
+        "responses": ["To make the most out of the app, try to use it regularly and explore all the features it offers. Don't hesitate to ask for help or guidance if you need it, and remember to provide feedback to help us improve."],
+        "context_set": ""
+      },
+      {
+        "tag": "privacy_policy",
+        "patterns": ["What's your privacy policy?", "How do you handle my data?", "Is my information secure?"],
+        "responses": ["We take your privacy seriously. Our privacy policy outlines how we collect, use, and protect your personal information. Let me provide you with more details."],
+        "context_set": ""
+      },
+      {
+        "tag": "about_app",
+        "patterns": ["Tell me more about this app", "What's the purpose of this app?", "Who developed this app?"],
+        "responses": ["Our app is designed to help you with your health and wellness journey. It provides resources and support in various areas, including symptom management, fitness, and stress relief. Let me know if you have any specific questions or if there's anything else I can assist you with."],
+        "context_set": ""
+      }
+    ]
+  }
+  
