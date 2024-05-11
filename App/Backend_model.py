@@ -128,7 +128,7 @@ def Symptom_checker(chat_display,user_input):
             search_value = predicted_class_index
             result = data5[data5['numeric_label'] == search_value]
             result_2 = data4[data4['Disease'] == result['Disease'].iloc[0]]
-            printed_result = f'It seems that you are suffering from {result_2['Disease'].iloc[0]}:\n {result_2['Symptom_Description'].iloc[0]} \n Some Precautions that you can take are: \n 1){result['Symptom_precaution_0'].iloc[0]} \n 2){result['Symptom_precaution_1'].iloc[0]} \n 3){result['Symptom_precaution_2'].iloc[0]}'
+            printed_result = f'It seems that you are suffering from {result_2["Disease"].iloc[0]}:\n {result_2["Symptom_Description"].iloc[0]} \n Some Precautions that you can take are: \n 1){result["Symptom_precaution_0"].iloc[0]} \n 2){result["Symptom_precaution_1"].iloc[0]} \n 3){result["Symptom_precaution_2"].iloc[0]}'
             chat_display.insert(tk.END, 'Pulse: ' + printed_result + '\n')
         else:
             chat_display.insert(tk.END, 'Pulse: Can you please rephrase what are you trying to say?'+'\n')
