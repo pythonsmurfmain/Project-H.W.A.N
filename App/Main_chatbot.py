@@ -5,7 +5,7 @@ from Guis import pulse,AidSync,synczen
 from Backend_model import MainChatbot
 
 OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"D:\HWAN\Gui\build_2\assets\frame0")
+ASSETS_PATH = OUTPUT_PATH / Path(r"Gui\build_2\assets\frame0")
 
 
 def relative_to_assets(path: str) -> Path:

@@ -12,17 +12,17 @@ import nltk
 nlp = spacy.load('en_core_web_lg')
 stemmer = nltk.PorterStemmer()
 
-with open('D:\\HWAN\\Data\\Main_chatbot_dataset.json','r') as f1:
+with open('Data\\Main_chatbot_dataset.json','r') as f1:
     data1 = json.load(f1)
     
-with open('D:\\HWAN\\Data\\Mental_health_conversation.json','r') as f2:
+with open('Data\\Mental_health_conversation.json','r') as f2:
     data2 = json.load(f2)
 
-with open('D:\\HWAN\\Data\\First_Aid_recommendation.json','r') as f3:
+with open('Data\\First_Aid_recommendation.json','r') as f3:
     data3 = json.load(f3)
 
-data4 = pd.read_csv(r'D:\HWAN\Data\Symptom_checker_dataset\disease_description.csv')
-data5 = pd.read_csv(r'D:\HWAN\Data\Symptom_checker_dataset\disease_precaution.csv')
+data4 = pd.read_csv(r'Data\Symptom_checker_dataset\disease_description.csv')
+data5 = pd.read_csv(r'Data\Symptom_checker_dataset\disease_precaution.csv')
 
 def stem(sentence):
     tokens = nltk.word_tokenize(sentence)

@@ -5,7 +5,7 @@ from Guis import MainPage,AidSync,synczen
 from Backend_model import Symptom_checker
 
 OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"D:\HWAN\Gui\build_3\assets\frame0")
+ASSETS_PATH = OUTPUT_PATH / Path(r"Gui\build_3\assets\frame0")
 
 
 

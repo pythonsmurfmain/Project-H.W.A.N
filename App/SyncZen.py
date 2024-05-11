@@ -5,7 +5,7 @@ from Guis import MainPage,pulse,AidSync
 from Backend_model import SyncZen_
 
 OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"D:\HWAN\Gui\build_5\assets\frame0")
+ASSETS_PATH = OUTPUT_PATH / Path(r"Gui\build_5\assets\frame0")
 
 
 def relative_to_assets(path: str) -> Path:

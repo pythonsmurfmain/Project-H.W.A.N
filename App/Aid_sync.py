@@ -5,7 +5,7 @@ from Backend_model import AidSync
 import tkinter as tk
 
 OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"D:\HWAN\Gui\build_4\assets\frame0")
+ASSETS_PATH = OUTPUT_PATH / Path(r"Gui\build_4\assets\frame0")
 
 
 def relative_to_assets(path: str) -> Path:
