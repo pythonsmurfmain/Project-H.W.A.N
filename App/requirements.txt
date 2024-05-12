@@ -30,7 +30,6 @@ decorator
 defusedxml==0.7.1
 dm-tree==0.1.8
 en-core-web-lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.7.1/en_core_web_lg-3.7.1-py3-none-any.whl#sha256=ab70aeb6172cde82508f7739f35ebc9918a3d07debeed637403c8f794ba3d3dc
-en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl#sha256=86cc141f63942d4b2c5fcee06630fd6f904788d2f0ab005cce45aadb8fb73889
 entrypoints
 etils==1.7.0
 executing
@@ -86,7 +85,6 @@ matplotlib==3.8.4
 matplotlib-inline
 mdurl==0.1.2
 mistune==3.0.2
-mkl-fft
 mkl-random
 mkl-service==2.4.0
 ml-dtypes==0.3.2
@@ -167,9 +165,6 @@ thinc==8.2.3
 threadpoolctl==3.4.0
 tinycss2==1.2.1
 toml==0.10.2
-torch==2.2.2
-torchaudio==2.2.2
-torchvision==0.17.2
 tornado
 tqdm==4.66.2
 traitlets==5.14.2
