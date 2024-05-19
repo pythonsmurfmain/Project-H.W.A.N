@@ -3,7 +3,7 @@ from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage
 
 
 OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"D:\HWAN\Gui\build_1\assets\frame0")
+ASSETS_PATH = OUTPUT_PATH / Path(r"D:\HWAN\Gui\build\assets\frame0")
 
 
 def relative_to_assets(path: str) -> Path:
@@ -31,7 +31,7 @@ image_image_1 = PhotoImage(
     file=relative_to_assets("image_1.png"))
 image_1 = canvas.create_image(
     598.0,
-    353.0,
+    348.0,
     image=image_image_1
 )
 
