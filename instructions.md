@@ -1,6 +1,7 @@
 # Instructions for Installing HWAN
 
 To install HWAN, follow these steps (before installing H.W.A.N it is neccessary to install python and git with there enviornment variables):
+CAUTION: Download may take some time
 
 ## Step 1: Clone the Repository
 
